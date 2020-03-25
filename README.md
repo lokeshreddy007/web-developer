@@ -35,7 +35,7 @@ Note: There can be only one <body> element in a document.
 ```html
 <body>
 <h1> Learn to code with Codecademy :) </h1>
-</ body >
+</body >
 ```
 
 #### HTML Structure ####
@@ -53,7 +53,7 @@ HTML is organized into a family tree structure. HTML elements can have parents, 
 
 #### Heading Elements ####
 
-HTML can use six different levels of heading elements. The heading elements are ordered from the highest level <h1> to the lowest level <h6> .
+HTML can use six different levels of heading elements. The heading elements are ordered from the highest level h1 to the lowest level h6.
 
 ```html
 <h1> Breaking News </ h1 >
@@ -65,7 +65,7 @@ HTML can use six different levels of heading elements. The heading elements are 
 
 #### Div Element ####
 
-The <div> element is used as a container that divides an HTML document into sections and is short for “division”. <div> elements can contain flow content
+The div element is used as a container that divides an HTML document into sections and is short for “division”. div elements can contain flow content
 such as headings, paragraphs, links, images, etc.
 
 ```html
@@ -115,8 +115,6 @@ separate pieces of text from a larger body of text, its use should be avoided if
 ```html
 <p> <span> This text </span> may be styled differently than the surrounding text.</p>
 ```
-
-
 #### Emphasis Element ####
 
 The <em> emphasis element emphasizes text and browsers will usually italicize the emphasized text by default.
@@ -133,8 +131,8 @@ break element requires only an opening tag and must not have a closing tag.
 #### List Item Element ####
 
 The <li> list item element create list items inside:
-● Unordered lists <ul>
-● Ordered lists <ol>
+1. Unordered lists ul
+2. Ordered lists ol
 
 #### Unordered List Element ####
 
@@ -184,9 +182,12 @@ The <video> element embeds a media player for video playback. The src attribute 
 display video controls in the media player.
 Note: The content inside the opening and closing tag is shown as a fallback in
 browsers that don’t support the element.
+
+```html
 < video src = "test-video.mp4" controls >
 Video not supported
 </ video >
+```
 
 #### Document Type Declaration ####
 The document type declaration <!DOCTYPE html> is required as the first line of an HTML document. The doctype declaration is an instruction to the browser
