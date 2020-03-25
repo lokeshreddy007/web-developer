@@ -125,18 +125,18 @@ The <strong> element highlights important, serious, or urgent text and browsers 
 
 #### Line Break Element ####
 
-The <br> line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line
+The br line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line
 break element requires only an opening tag and must not have a closing tag.
 
 #### List Item Element ####
 
-The <li> list item element create list items inside:
+The li list item element create list items inside:
 1. Unordered lists ul
 2. Ordered lists ol
 
 #### Unordered List Element ####
 
-The <ul> unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.
+The ul unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.
 
 ```html
 <ul>
@@ -146,7 +146,7 @@ The <ul> unordered list element is used to create a list of items in no particul
 ```
 #### Ordered List Element ####
 
-The <ol> ordered list element creates a list of items in sequential order. Each list item appears numbered by default.
+The ol ordered list element creates a list of items in sequential order. Each list item appears numbered by default.
 
 ```html
 < ol >
